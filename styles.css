@@ -1,0 +1,78 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .content {
+    line-height: 1.6;
+  }
+  
+  .private-key {
+    font-family: monospace;
+    background-color: #f0f0f0;
+    padding: 5px;
+    word-break: break-all;
+  }
+  
+  .contract-address {
+    font-family: monospace;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  ol {
+    padding-left: 20px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .video-container {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .redirect-link {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .redirect-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
+  .redirect-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styles for responsiveness */
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  
